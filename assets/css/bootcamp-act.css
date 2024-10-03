@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+/* wrapper */
+.wrapper{
+    width: 100%;
+    margin: auto;
+}
+
+/* header */
+.nav{
+    overflow: auto;
+    width: 50%;
+    margin: auto;
+
+    
+}
+
+
+.nav ul{
+    width: 60%;
+    float: left;
+    text-align: right;
+    padding-top: 1em;  
+}
+
+.nav ul li{
+    display: inline-block;
+    margin-left: 1em;
+
+}
+
+.nav ul a{
+    color: #312e26;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+#logo{
+    width: 60px;
+    height: 50px;
+
+}
+
+
+/* 2.banner */
+
+.banner{
+    background-image: url(..//images/atf.jpg);
+    background-size: cover;
+    background-position:;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    
+}
+
+.banner-text{
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    padding-left: 30%;   
+}
+
+.banner-text h2{
+    color: #fff;
+    font-size: 3em;
+    text-align: right;
+    margin-right: 30px;
+
+
+}
+
+.banner h2 span{
+    color: #c7a17a;
+    text-align: right;
+    
+}
+
+.banner-text p{
+    color: #fff;
+    text-align: right;
+    margin-right: 30px;
+    
+    
+
+}
+
+.banner-text a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background-color:rgb(196, 167, 114);
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-top: 1em;
+    margin-right: 30px;
+    float: right;
+    border-radius: 5px;
+
+}
+
+/* 3. content */
+.content{
+    width: 100%;
+    height: 400px;
+}
+
+.content h3{
+    text-align: center;
+    margin: 40px
+}
+
+.content p{
+text-align: justify;
+}
+
+
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background-color:rgb(196, 167, 114);
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-top: 1em;
+    margin-right: 30px;
+    border-radius: 5px;
+
+}
+
+
+#art1{
+    text-align: left;
+    width: 85%;
+    margin: auto;
+    height: 200px;
+
+}
+
+#art2{
+    text-align: right;
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+    height: 200px;
+}
+
+
+#img1{
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    float: left;
+}
+
+#img2{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-left: 10px;
+
+}
+
+
+/* 3.footer */
+
+
+.footer{
+       background-color:rgb(196, 167, 114);
+       margin-top: 100px;
+       padding-top: 2em;
+       padding-bottom: 2em;
+
+}
+
+.footer-contents{
+    width: 85%;
+    margin: auto;
+    overflow: auto;
+}
+
+form{
+    overflow: auto;
+}
+
+
+.form-group h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form input, form label, form select{
+    display: inline-block;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+
+form label{
+    font-weight: 700;
+    padding: 0;
+    margin-bottom: .5em;
+}
+
+.form-group-1{
+    width: 45%;
+    padding: 0;
+    float: left;
+}
+
+.form-group-2{
+    width: 45%;
+    padding: 0;
+    float: right;
+}
+
+.form-group-1 table tr td{
+    text-align: justify;
+    border-radius: 5px;
+    width: 300px;
+    
+}
+
+.form-group-2 table{
+    width: auto;
+    height: 150px;
+}
+
+.form-group-2 table tr td{
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+
+.form-group-2 table tr, td, th{
+    width: 140px;
+    height: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.form-group-2 thead{
+    background-color: #312e26;
+    color: #fff;
+}
+
+.form-group-2 #reserved{
+    background-color: chartreuse;
+}
+
+.form-group-2 .pend{
+    background-color: orange;
+}
+
+.form-group-2 .row2{
+    background-color: lightgray;
+
+}
+
+form #btn-submit{
+    color: #fff;
+    background-color: #312e26;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.cr h4{
+    text-align: center;
+    padding: 0.5em;
+    
+}
